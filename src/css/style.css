@@ -1,0 +1,100 @@
+body {
+  background-color: grey;
+}
+
+ul {
+  display: block;
+}
+
+span {
+  display: block;
+}
+
+form {
+  display: block;
+}
+
+.title {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.validator {
+  width: 700px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.cards {
+  width: 450px;
+  margin: 0 auto;
+  height: 30px;
+  list-style: none;
+  display: flex;
+  margin-bottom: 50px;
+  padding-left: 0;
+}
+
+.cards li {
+  display: block;
+}
+
+.card {
+  width: 105px;
+  height: 65px;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+}
+
+.visa {
+  background-image: url('../img/visa_straight.png');
+}
+
+.mir {
+  background-image: url('../img/mir_curved.png');
+}
+
+.master {
+  background-image: url('../img/mastercard_curved.png');
+}
+
+.amex {
+  background-image: url('../img/american_express_curved.png');
+}
+
+#submitform {
+  margin-left: 10px;
+}
+
+.form-control {
+  margin: 0 auto;
+  display: block;
+  width: 450px;
+  height: 35px;
+  padding: 6px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  color: #fff;
+  background-color: green;
+  display: inline-block;
+  padding: 6px 12px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.card_inactive {
+  opacity: 0.2;
+}
